@@ -59,6 +59,9 @@ strong {
 dfn {
   font-style: italic;
 }
+li{
+  list-style-type: none;
+}
 h1 {
   margin: .67em 0;
   font-size: 2em;
@@ -6755,3 +6758,6 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+ul .why{
+  font-size: 3em;
+}
