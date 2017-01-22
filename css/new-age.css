@@ -151,11 +151,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), #efc22e;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #efc22e, #e37d30);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #efc22e, #e37d30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -187,6 +187,7 @@ header .device-container {
 }
 header .device-container .screen img {
   border-radius: 3px;
+  margin-top: 0px;
 }
 @media (min-width: 768px) {
   header {
@@ -197,6 +198,9 @@ header .device-container .screen img {
     padding: 0;
     height: 100vh;
   }
+  header .jobfit-main-title {
+    font-weight: bold;
+  }
   header .header-content .header-content-inner {
     max-width: none;
     margin: 0;
@@ -206,7 +210,7 @@ header .device-container .screen img {
   }
   header .header-content .header-content-inner h1 {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: medium;
   }
   header .device-container {
     max-width: none;
@@ -407,8 +411,9 @@ footer ul li a.active {
 }
 .btn-outline {
   color: white;
+
   border-color: white;
-  border: 1px solid;
+  border: 2px solid;
 }
 .btn-outline:hover,
 .btn-outline:focus,
@@ -418,6 +423,15 @@ footer ul li a.active {
   background-color: #fdcc52;
   border-color: #fdcc52;
 }
+#tag1 {
+  color: #8a4c9e;
+}
+#tag2 {
+  color: #2fad62;
+}
+.lili {
+  color: #2d3e4f;
+}
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
@@ -426,7 +440,8 @@ footer ul li a.active {
 }
 .btn-xl {
   padding: 15px 45px;
-  font-size: 11px;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 ::-moz-selection {
   color: white;
